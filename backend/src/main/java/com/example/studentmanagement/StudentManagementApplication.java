@@ -18,7 +18,7 @@ public class StudentManagementApplication {
     @Bean
     public CorsFilter corsFilter() {
         CorsConfiguration config = new CorsConfiguration();
-        config.setAllowedOrigins(Arrays.asList("http://localhost:3001")); // Add the React app's origin
+        config.setAllowedOrigins(Arrays.asList("http://localhost:3000")); // Add the React app's origin
         config.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         config.setAllowedHeaders(Arrays.asList("Authorization", "Content-Type", "Cache-Control"));
         config.setExposedHeaders(Arrays.asList("Authorization"));
