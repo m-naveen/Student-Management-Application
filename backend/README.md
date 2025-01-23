@@ -37,7 +37,7 @@ student-management-app
 ## Setup Instructions
 1. **Clone the repository**
    ```
-   git clone <repository-url>
+   git clone https://github.com/m-naveen/Student-Management-Application Or Download Zip file:
    cd student-management-app/backend
    ```
 

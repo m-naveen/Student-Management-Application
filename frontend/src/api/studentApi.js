@@ -6,7 +6,6 @@ const API_URL = "http://localhost:8080/api/students";
 // Ensures Axios sends cookies (if needed) for cross-origin requests
 axios.defaults.withCredentials = true;
 
-// Fetch all students
 export const getStudents = async () => {
   try {
     const response = await axios.get(API_URL, {
