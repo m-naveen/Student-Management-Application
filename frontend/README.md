@@ -26,7 +26,7 @@ This is the frontend part of the Student Management Application built using Reac
 
 ### Installation
 
-1. Clone the repository:
+1. Clone the repository (https://github.com/m-naveen/Student-Management-Application) Or Download the zip file:
    ```
    git clone <repository-url>
    ```
